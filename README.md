@@ -38,7 +38,7 @@ This builds the a Docker image with all needed tools. This process creates the f
 
 ## Requirement on your OpenNebula Cloud
 
-- Ubuntu 16.04 Image with Contextualization
+- Ubuntu 16.04 Image matching your hypervisor with Contextualization (e.g. from https://marketplace.opennebula.systems, such as `Ubuntu 16.04 - KVM` by OpenNebula Systems)
 - IP-Network which has to be accessible from your Docker Host
 - Connectivity to ONE XMLRPC (https://your.cloud.com:2633/RPC2)
 
